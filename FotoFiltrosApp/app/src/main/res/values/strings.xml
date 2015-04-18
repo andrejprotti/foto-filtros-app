@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FotoFiltros</string>
+    <string name="get_photo">Tirar foto!</string>
+    <string name="descript">will vary; image taken from camera</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="tipos_filtros">
+        <item>Sem filtro!</item>
+        <item>Filtro 1</item>
+        <item>Filtro 2</item>
+        <item>Filtro 3</item>
+    </string-array>
+
+</resources>
