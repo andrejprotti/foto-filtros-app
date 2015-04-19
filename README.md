@@ -1,7 +1,7 @@
 ﻿# foto-filtros-app
 Photo app for Android with filters using OpenCV.
 
-Aline Castro 
+Aline Conceição de Castro RA: 20477413
 
 André Jardim Protti RA: 20485671
 
