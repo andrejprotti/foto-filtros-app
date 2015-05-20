@@ -11,6 +11,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -37,6 +38,8 @@ public class Teste extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teste);
 
+        final MediaPlayer cameraBtn = MediaPlayer.create(this, R.raw.clic);
+
         //Codigo do Spinner
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -51,6 +54,8 @@ public class Teste extends Activity {
 
         callCameraButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+
+                cameraBtn.start();
 
                 Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(cameraIntent, CAPTURE_IMAGE_ACTIVITY_REQ);
@@ -144,6 +149,11 @@ public class Teste extends Activity {
     }
 
     public void mostrarGrupo(View view){
+
+        final MediaPlayer mostrarGrupoBtn = MediaPlayer.create(this, R.raw.botao);
+
+        mostrarGrupoBtn.start();
+
         Toast.makeText(this, "André Protti\nAline Castro\nJair Bressani\nMariana Yashima",Toast.LENGTH_LONG).show();
     }
 
