@@ -7,10 +7,14 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="tipos_filtros">
-        <item>Sem filtro!</item>
-        <item>Filtro 1</item>
-        <item>Filtro 2</item>
-        <item>Filtro 3</item>
+        <item>Escolha seu filtro!</item>
+        <item>Imagem original!</item>
+        <item>Detecção de Bordas</item>
+        <item>Branco e Preto</item>
+        <item>Negativo</item>
+        <item>Contraste Equalizado</item>
+        <item>Colourspace HSV</item>
+        <item>Filtro Laplaciano</item>
     </string-array>
 
 </resources>

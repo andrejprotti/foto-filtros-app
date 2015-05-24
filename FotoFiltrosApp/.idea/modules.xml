@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FotoFiltrosApp.iml" filepath="$PROJECT_DIR$/FotoFiltrosApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary300rc1/openCVLibrary300rc1.iml" filepath="$PROJECT_DIR$/openCVLibrary300rc1/openCVLibrary300rc1.iml" />
     </modules>
   </component>
 </project>
