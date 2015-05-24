@@ -9,7 +9,7 @@ Jair Bressani RA: 20331492
 
 Mariana Yashima RA:20473981
 
-Vídeo YouTube:
+Manual/Vídeo YouTube:
 
 https://www.youtube.com/watch?v=NyOMkaU0Hh8
 
